@@ -1,0 +1,65 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - HappyDNS (0.3.14)
+  - Masonry (1.1.0)
+  - MJRefresh (3.1.15.7)
+  - Qiniu (7.0.20):
+    - AFNetworking (~> 2.0)
+    - HappyDNS (~> 0.3)
+  - Realm (3.11.0):
+    - Realm/Headers (= 3.11.0)
+  - Realm/Headers (3.11.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5.4)
+  - Masonry
+  - MJRefresh
+  - Qiniu (= 7.0.20)
+  - Realm (~> 3.11.0)
+  - SDWebImage
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - HappyDNS
+    - Masonry
+    - MJRefresh
+    - Qiniu
+    - Realm
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  HappyDNS: dc6a164ee81979093123c241c6353bcf0218add6
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  Qiniu: 8958e70c02fb563c8c04d555bb5041441c5f4216
+  Realm: 92f09a102692b96a9a10e9617f214f15c5ab85fc
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+
+PODFILE CHECKSUM: cae88dfbe66c12ff4e0115bd6d58227663bef94b
+
+COCOAPODS: 1.5.3
